@@ -1,6 +1,5 @@
-import { Linkedin , Mail, PhoneOutgoing  } from "lucide-react";
+import { Linkedin, Mail, PhoneOutgoing } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
-
 
 // MARK: NAVIGATION LINKS
 export const navigationlinks = [
@@ -13,18 +12,20 @@ export const navigationlinks = [
 export const social = [
   {
     url: "https://www.linkedin.com/feed/?trk=nav_back_to_linkedin",
-    // name: <Linkedin />,
+    myIcon: <Linkedin />,
   },
   {
     url: "https://twitter.com/LucianRosuATC",
-    // name: <FaXTwitter />,
+    myIcon: <FaXTwitter />,
   },
   {
     url: "mailto:vigilent.developer@gmail.com",
-    // name: <Mail />,
+    myIcon: <Mail />,
   },
   {
     url: "tel:07505",
-    // name: <PhoneOutgoing />,
+    myIcon: <PhoneOutgoing />,
   },
 ];
+
+

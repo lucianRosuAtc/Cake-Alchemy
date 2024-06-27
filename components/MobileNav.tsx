@@ -29,7 +29,7 @@ export default function MobileNav() {
             <SheetClose asChild>
               <Link href="/">
                 <Image
-                  src="/images/plumbing-logo-rmbg.png"
+                  src="/img/FBNew.png"
                   width={240}
                   height={64}
                   alt="Logo"
@@ -62,9 +62,9 @@ export default function MobileNav() {
                   href={item.url}
                   key={index}
                   target="_blank"
-                  className="text-secondary/80 hover:text-primary dark:text-orange-100 dark:hover:text-primary text-3xl transition-all shadow-lg p-2 rounded-full bg-gray-50 dark:bg-black/20 dark:shadow-gray-600 dark:shadow-sm object-cover object-center"
+                  className="text-secondary hover:text-primary dark:text-orange-100 dark:hover:text-primary text-3xl transition-all shadow-lg p-2 rounded-full bg-gray-50 dark:bg-black/20 dark:shadow-gray-600 dark:shadow-sm object-cover object-center"
                 >
-                  {item.name}
+                  {item.myIcon}
                 </a>
               ))}
             </div>
