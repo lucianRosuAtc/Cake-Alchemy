@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex gap-x-8 items-center justify-center">
           {navigationlinks.map((navlink) => (
             <Link
-              className={`link text-secondary/80 dark:text-white hover:text-primary pb-1 font-semibold ${
+              className={`link dark:text-white hover:text-primary pb-1 font-semibold ${
                 pathname === navlink.url ? "active" : ""
               }`}
               key={navlink.url}
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-center px-4 text-secondary/80 dark:text-white py-8 lg:pt-14">
+      <div className="flex justify-center px-4 dark:text-white py-8 lg:pt-14">
         <p className="text-sm text-center font-medium">
           <span className="pr-1">&copy;</span>
           {`${year}`} <Link href="https://www.lucianrosu.com/" target="_blank" className="hover:text-primary">Lucian Dev</Link>, All rights reserved.
