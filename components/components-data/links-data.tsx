@@ -12,19 +12,19 @@ export const navigationlinks = [
 export const social = [
   {
     url: "https://www.linkedin.com/feed/?trk=nav_back_to_linkedin",
-    myIcon: <Linkedin />,
+    myIcon: <Linkedin size={31}/>,
   },
   {
     url: "https://twitter.com/LucianRosuATC",
-    myIcon: <FaXTwitter />,
+    myIcon: <FaXTwitter size={31}/>,
   },
   {
     url: "mailto:vigilent.developer@gmail.com",
-    myIcon: <Mail />,
+    myIcon: <Mail size={31}/>,
   },
   {
     url: "tel:07505",
-    myIcon: <PhoneOutgoing />,
+    myIcon: <PhoneOutgoing size={31}/>,
   },
 ];
 
