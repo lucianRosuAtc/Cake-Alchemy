@@ -51,7 +51,7 @@ export default function Paralax() {
           }
         </div>
 
-        <div className="flex flex-col items-center justify-center mb-8">
+        <div className="flex flex-col items-center justify-center mb-8 md:mb-16">
           <Link href="/services">
             <Button className="gap-2 px-7 font-bold">Our Products <CakeSlice className="animate-bounce transition-all dark:text-orange-500" /></Button>
           </Link>
@@ -69,7 +69,7 @@ export default function Paralax() {
       </section>
 
   {/* 2 text  */}
-      <div className="flex flex-col gap-y-10 max-w-5xl mx-auto py-12 px-4">
+      <div className="flex flex-col gap-y-10 max-w-5xl mx-auto py-12 md:py-20 px-4">
         {IntroDataSecond.map((introSecond, id) => (
           // <div key={id} className="flex items-center">
           <div key={id} className="flex items-start lg:items-center justify-start">
@@ -106,7 +106,7 @@ export default function Paralax() {
         </div>
       </section>
 
-      <section className="flex flex-col max-w-5xl mx-auto px-4 md:px-8 lg:text-center mb-8">
+      <section className="flex flex-col max-w-5xl mx-auto px-4 md:px-8 lg:text-center mb-8 md:mb-12">
         <h3 className="my-8">Custom Cake Designs</h3>
         <p className="subtitle3 mb-8">
           Can&apos;t find exactly what you&apos;re looking for? Let us create a custom cake that perfectly matches your vision. From the initial sketch to the final decoration, we work closely with you to bring your dream cake to life.
