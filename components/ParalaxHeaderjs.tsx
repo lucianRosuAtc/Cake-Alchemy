@@ -54,7 +54,7 @@ export default function ParalaxHeaderJs() {
         />
         <ul className="absolute overflow-hidden flex items-center list-none h-screen text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-black text-white">
           <li
-            className="scroll border-b-4 lg:border-b-8 dark:border-white border-primary/90 text-white dark:text-primary/90"
+            className="scroll border-b-4 lg:border-b-8 dark:border-white border-primary/90 text-white dark:text-primary/90 pr-3 md:pr-5 lg:pr-8 2xl:pr-10"
             data-rate="-2"
             data-direction="vertical"
           >
