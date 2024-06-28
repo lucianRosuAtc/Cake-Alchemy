@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         {/* MARK: Social Media */}
-        <div className="flex gap-x-8  items-center justify-center lg:justify-end">
+        <div className="flex gap-x-8 items-center justify-center lg:justify-end">
           {social.map((item, index) => (
             <a
               href={item.url}
