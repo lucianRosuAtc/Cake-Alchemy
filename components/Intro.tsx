@@ -2,6 +2,7 @@
 import {
   BadgeCheck,
   Cake,
+  CakeSlice,
   Handshake,
   PartyPopper,
   Trophy,
@@ -13,18 +14,17 @@ import { IntroData } from "./components-data/intro-data";
 
 import React from "react";
 import ProgressBar from "./ProgressBar";
+import Link from "next/link";
 
 export default function Paralax() {
   return (
-    <section className="">
+    <div className="">
 
-
-
-      <div className="relative">
+      <section className="relative">
         <div className="absolute right-8 -top-[65px] bg-white dark:bg-black rounded-lg p-2 shadow-inner">
           <ProgressBar value={100} max={100} />
         </div>
-      </div>
+      </section>
 
       {/* 1 */}
       <section className="bg-[url('/img/BGCake/BGDarkBgCherryMuffins.webp')] bg-no-repeat bg-cover object-center bg-fixed">
@@ -36,75 +36,35 @@ export default function Paralax() {
       </section>
 
 
+      {/* 1 text  */}
+      <section className="">
+        <h3 className="my-8 text-center">Company Values</h3>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 m-10 max-w-5xl mx-auto px-4 md:px-8">
+          {IntroData.map((intro, id) => (
+            <div key={id} className="flex flex-col items-start lg:items-center  justify-start">
+              <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white mb-4">
+                {intro.icon}
+              </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 m-10 max-w-5xl mx-auto px-4 md:px-8">
-
-        <div className="flex flex-col items-start lg:items-center  justify-center">
-
-          <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white mb-4">
-            <Handshake className="h-10 w-10 m-3" />
-          </div>
-
-          <div className="flex flex-col ">
-            <p className="subtitle2 mb-4">
-              Professional and Friendly Service
-            </p>
-            <p className="subtitle3"> 
-               I believe in maintaining a friendly yet
-              professional relationship with my clients. I am committed to
-              providing excellent customer service and ensuring that you are
-              completely satisfied with my work.
-              </p>
-          </div>
+              <div className="flex flex-col lg:text-center">
+                <p className="subtitle2 mb-4">
+                  {intro.title}
+                </p>
+                <p className="subtitle3">
+                  {intro.desc}
+                </p>
+              </div>
+            </div>
+          ))
+          }
         </div>
 
-
-
-
-
-
-
-        <div className="flex flex-col items-start lg:items-center justify-center">
-
-          <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
-            <Trophy className="h-10 w-10 m-3" />
-          </div>
-          <div className="flex flex-col ">
-            <p className="subtitle2">
-              Custom Creations:
-            </p>
-            <p className="subtitle3">
-              At our bakery, we believe in crafting cakes that
-              are as unique as your special occasions. Our passion is to deliver
-              not just a cake, but an experience, tailored to your taste and
-              vision. We are committed to using the finest ingredients to ensure
-              every slice is a piece of joy.
-            </p>
-          </div>
+        <div className="flex flex-col items-center justify-center mb-8">
+          <Link href="/services">
+            <Button className="gap-2 px-7">Our Products <CakeSlice  className="animate-bounce transition-all text-white" /></Button>
+          </Link>
         </div>
-
-        <div className="flex flex-col items-start lg:items-center justify-center">
-
-          <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
-            < BadgeCheck className="h-10 w-10 m-3" />
-          </div>
-          <div className="flex flex-col ">
-            <p className="subtitle2">
-              Artistry in Every Bite:
-            </p>
-            <p className="subtitle3">   We take pride in our artistic approach to
-              baking. Each cake is a masterpiece, designed to capture the essence
-              of your celebration. From elegant wedding cakes to fun and vibrant
-              birthday cakes, our goal is to create a memorable centerpiece that
-              tastes as good as it looks.</p>
-          </div>
-        </div>
-
-      </div>
-
-
-
-
+      </section>
 
 
       {/* 2  */}
@@ -175,7 +135,7 @@ export default function Paralax() {
 
 
 
-    </section>
+    </div>
   );
 }
 
@@ -210,9 +170,4 @@ export default function Paralax() {
         </Link>
       </div> */}
 
-{/* <div className="flex flex-col items-center justify-center">
-        <ArrowBigDown className="animate-bounce transition-all text-primary" />
-        <Link href="/services">
-          <Button className="gap-2 px-9">Our Services</Button>
-        </Link>
-      </div> */}
+{/* */ }
