@@ -15,6 +15,7 @@
     --primary: 142.1 76.2% 36.3%;
     --primary-foreground: 355.7 100% 97.3%;
     --secondary: 240 4.8% 95.9%;
+    /* --secondary: 41, 90%, 50%; */
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
@@ -50,6 +51,7 @@
     --ring: 142.4 71.8% 29.2%;
   }
 }
+
 
 
   @layer base {

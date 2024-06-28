@@ -52,7 +52,7 @@ export default function ParalaxHeaderJs() {
           className="object-cover w-full h-full bg-no-repeat object-center opacity-80"
           priority={true}
         />
-        <ul className="absolute overflow-hidden flex items-center list-none h-screen text-5xl lg:text-9xl font-black text-white">
+        <ul className="absolute overflow-hidden flex items-center list-none h-screen text-4xl md:text-5xl lg:text-9xl font-black text-white">
           <li
             className="scroll border-b-4 lg:border-b-8 dark:border-white border-primary/90 text-white dark:text-primary/90"
             data-rate="-2"
@@ -70,14 +70,13 @@ export default function ParalaxHeaderJs() {
           </li>
         </ul>
         <span
-          className="scroll absolute w-20 lg:w-80 h-20 lg:h-80 bottom-4 left-4 overflow-hidden"
+          className="scroll absolute w-40 lg:w-80 h-40 lg:h-80 bottom-4 left-0 overflow-hidden"
           data-ratey="-1.5"
           data-ratex="2"
           data-direction="horizontal"
         >
           <Image
             src="/img/NoBg/FlyingCupNoBg.png"
-            // src="/img/NoBg/FlyingFruitsCakeNoBg.png"
             alt="logo"
             width="500"
             height="500"
@@ -85,7 +84,7 @@ export default function ParalaxHeaderJs() {
             priority={true}
           />
         </span>
-        <h2 className="absolute bottom-6 sm:bottom-9 lg:bottom-[70px] left-28 lg:left-[270px] text-primary/80 text-2xl sm:text-4xl lg:text-5xl xl:text-7xl">Lorem ipsum dolor sit amet.</h2>
+        <h2 className="absolute bottom-6 sm:bottom-9 lg:bottom-[70px] left-28 lg:left-[270px] text-secondary text-2xl sm:text-4xl lg:text-5xl xl:text-7xl">Lorem ipsum dolor sit amet.</h2>
       </section>
       {/* <p className="text-base text-gray-500 text-justify leading-8 mx-12 mb-10">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
