@@ -4,6 +4,7 @@ import {
   Cake,
   CakeSlice,
   Handshake,
+  MessageCircleMore,
   PartyPopper,
   Trophy,
 
@@ -61,7 +62,7 @@ export default function Paralax() {
 
         <div className="flex flex-col items-center justify-center mb-8">
           <Link href="/services">
-            <Button className="gap-2 px-7">Our Products <CakeSlice  className="animate-bounce transition-all text-white" /></Button>
+            <Button className="gap-2 px-7 font-bold">Our Products <CakeSlice className="animate-bounce transition-all dark:text-orange-500" /></Button>
           </Link>
         </div>
       </section>
@@ -77,7 +78,7 @@ export default function Paralax() {
       </section>
 
 
-      <div className="flex flex-col gap-y-10">
+      <div className="flex flex-col gap-y-10 max-w-5xl mx-auto py-12 px-4">
         <div className="flex items-center">
           <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
             <Cake className="h-10 w-10 m-3" />
@@ -89,6 +90,7 @@ export default function Paralax() {
             <p className="subtitle3">From luxurious wedding cakes to delightful birthday surprises, our handcrafted creations are designed to make your celebrations unforgettable.</p>
           </div>
         </div>
+
         <div className="flex items-center">
           <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
             <PartyPopper className="h-10 w-10 m-3" />
@@ -100,6 +102,7 @@ export default function Paralax() {
             <p className="subtitle3">Explore our wide range of flavors, from classic vanilla and rich chocolate to exotic passion fruit and salted caramel. Each cake is a masterpiece, baked with the finest ingredients and decorated with precision and care.</p>
           </div>
         </div>
+
         <div className="flex items-center">
           <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
             <PartyPopper className="h-10 w-10 m-3" />
@@ -110,6 +113,12 @@ export default function Paralax() {
             </p>
             <p className="subtitle3"> Can&apos;t find exactly what you&apos;re looking for? Let us create a custom cake that perfectly matches your vision. From the initial sketch to the final decoration, we work closely with you to bring your dream cake to life.</p>
           </div>
+        </div>
+
+        <div className="flex flex-col items-center justify-center">
+          <Link href="/contact">
+            <Button className="gap-2 px-7 font-bold">Contact Me<MessageCircleMore className="animate-bounce transition-all dark:text-orange-500" /></Button>
+          </Link>
         </div>
       </div>
 
@@ -163,11 +172,5 @@ export default function Paralax() {
         </div>
       </section> */}
 
-{/* <div className="flex flex-col items-center justify-center">
-        <ArrowBigDown className="animate-bounce transition-all text-primary" />
-        <Link href="/contact">
-          <Button className="gap-2 px-9">Contact Me</Button>
-        </Link>
-      </div> */}
 
-{/* */ }
+
