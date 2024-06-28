@@ -13,17 +13,18 @@ export default function Hero() {
         alt="Big Cake"
         className="mx-auto w-72 sm:w-[500px] lg:w-[700px] 2xl:w-[800px] h-72 sm:h-[500px] lg:h-[700px] 2xl:h-[800px] object-cover object-center order-2 xl:order-1"
         priority={true}
-      />
+        />
 
-      <div className="flex flex-col justify-end py-4 sm:pt-8 md:pt-16 xl:pt-24 text-gray-800 dark:text-gray-200 mx-4 md:mx-8 h-full order-1 xl:order-2">
+
+
+      <div className="flex flex-col justify-end py-4 sm:py-8 md:py-16 xl:py-24 text-gray-800 dark:text-gray-200 mx-4 md:mx-8 h-full order-1 xl:order-2">
+
         <h2 className="text-2xl md:text-5xl lg:text-7xl leading-loose mb-8">
           Make your Party Amazing
         </h2>
         <h3 className="mb-8">
           Cake Alchemy goes beyond planning and elevates all of your parties.
         </h3>
-
-
 
 
         <div className="flex flex-col gap-y-10">
