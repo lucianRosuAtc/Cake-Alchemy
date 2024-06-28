@@ -85,6 +85,15 @@ h4 {
   @apply text-muted-foreground text-sm md:text-lg mb-8 font-light;
 }
 
+.subtitle2 {
+  @apply text-accent-foreground text-sm md:text-lg font-bold uppercase;
+}
+
+.subtitle3 {
+  @apply text-sm md:text-lg font-light;
+}
+
+
 .badge {
   @apply flex items-center gap-x-4 z-10 w-[190px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-md;
 }
