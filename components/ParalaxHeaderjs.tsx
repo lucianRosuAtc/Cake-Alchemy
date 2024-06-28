@@ -45,14 +45,14 @@ export default function ParalaxHeaderJs() {
     <div ref={divRef}>
       <section className="h-screen flex items-center justify-center bg-gray-200 overflow-hidden scroll-smooth">
         <Image
-          src="/img/BGCake/BgFruitMartipanMuffin.jpg"
+          src="/img/BGCake/BgFruitMartipanMuffin.webp"
           alt="Cake image as background"
           width="1920"
           height="1080"
           className="object-cover w-full h-full bg-no-repeat object-center opacity-80"
           priority={true}
         />
-        <ul className="absolute overflow-hidden flex items-center list-none h-screen text-4xl md:text-5xl lg:text-9xl font-black text-white">
+        <ul className="absolute overflow-hidden flex items-center list-none h-screen text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-black text-white">
           <li
             className="scroll border-b-4 lg:border-b-8 dark:border-white border-primary/90 text-white dark:text-primary/90"
             data-rate="-2"
@@ -84,14 +84,8 @@ export default function ParalaxHeaderJs() {
             priority={true}
           />
         </span>
-        <h2 className="absolute bottom-6 sm:bottom-9 lg:bottom-[70px] left-28 lg:left-[270px] text-secondary text-2xl sm:text-4xl lg:text-5xl xl:text-7xl">Lorem ipsum dolor sit amet.</h2>
+        <h2 className="absolute bottom-6 sm:bottom-9 lg:bottom-[70px] left-28 lg:left-[270px] border-b-4 lg:border-b-8 border-white dark:border-primary/90 dark:text-white text-primary/90 text-2xl sm:text-4xl lg:text-5xl xl:text-7xl">Lorem ipsum dolor sit amet.</h2>
       </section>
-      {/* <p className="text-base text-gray-500 text-justify leading-8 mx-12 mb-10">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-        similique, odit, aliquid officia ad nihil est laboriosam ab ex vero
-        error? Error soluta iusto, sed veniam delectus dolores, ullam asperiores
-        mollitia sint, quo enim cum dolore accusantium quam eius!
-      </p> */}
       </div>
   );
 }
