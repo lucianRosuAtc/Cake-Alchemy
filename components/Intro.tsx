@@ -31,8 +31,8 @@ export default function Paralax() {
       <section className="px-4 md:px-8">
         <h3 className="my-8 lg:text-center">Company Values</h3>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 m-10 max-w-5xl mx-auto">
-          {IntroDataFirst.map((introFirst, id) => (
-            <div key={id} className="flex flex-row lg:flex-col items-start lg:items-center justify-start">
+          {IntroDataFirst.map((introFirst) => (
+            <div key={introFirst.id} className="flex flex-row lg:flex-col items-start lg:items-center justify-start">
               <div className="flex justify-center items-center min-h-16 min-w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white mb-4 ">
                 {introFirst.icon}
               </div>
