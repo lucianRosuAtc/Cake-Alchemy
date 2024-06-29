@@ -3,7 +3,6 @@ import { CakeSlice, MessageCircleMore } from "lucide-react";
 import { Button } from "./ui/button";
 import { IntroDataFirst, IntroDataSecond } from "./components-data/intro-data";
 
-
 import React from "react";
 import ProgressBar from "./ProgressBar";
 import Link from "next/link";
@@ -104,7 +103,6 @@ export default function Paralax() {
         <p className="subtitle3 mb-8">
           Can&apos;t find exactly what you&apos;re looking for? Let us create a custom cake that perfectly matches your vision. From the initial sketch to the final decoration, we work closely with you to bring your dream cake to life.
         </p>
-
       </section>
 
     </div>
