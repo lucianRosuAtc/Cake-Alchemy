@@ -23,7 +23,7 @@ export default function Hero() {
         </h3>
         
         <div className="flex flex-col gap-y-10">
-          <div className="flex items-center">
+        <div className="flex items-start">
             <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
               <Cake className="h-10 w-10 m-3" />
             </div>
@@ -35,7 +35,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="flex items-center">
+          <div className="flex items-start">
             <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
               <PartyPopper className="h-10 w-10 m-3" />
             </div>
@@ -47,7 +47,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="flex items-center">
+          <div className="flex items-start">
             <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
               <Gift className="h-10 w-10 m-3" />
             </div>
@@ -59,7 +59,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="flex items-center">
+          <div className="flex items-start">
             <div className="flex justify-center items-center h-16 w-16 border shadow-inner mr-4 rounded-2xl text-primary/80 dark:text-black dark:bg-white">
               <CakeSlice className="h-10 w-10 m-3" />
             </div>
