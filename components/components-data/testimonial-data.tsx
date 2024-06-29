@@ -20,7 +20,7 @@ export const TestimonialData = [
         name: "Robitza cap DeVeverita",
         title: "CEO",
         image: "/img/Testimonials/9.png",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetu, pulvinar dapibus leo",
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ export const TestimonialData = [
         name: "Melanie Geta",
         title: "CEO",
         image: "/img/Testimonials/17.jpg",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut  pulvinar dapibus leo",
     },
 
 ]
