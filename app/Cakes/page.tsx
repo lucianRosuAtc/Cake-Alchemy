@@ -14,7 +14,7 @@ export default function Cake() {
   return (
     <main className='my-8 md:my-0'>
       <Image
-        src="/img/BGCake/BigCakeHero.png"
+        src="/img/BGCake/BigCakeHero.webp"
         alt="Cake image as background"
         width="1920"
         height="1080"

@@ -18,7 +18,7 @@ export default function SideNav() {
         <SideNavLinks />
         <div className="hidden h-auto w-full grow rounded-md md:block">
           <Image
-            src="/img/SideBarBgNoBg.png"
+            src="/img/SideBarBgNoBg.webp"
             alt="side bar background"
             width={300}
             height={300}

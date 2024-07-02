@@ -5,35 +5,39 @@
 export const CakeGalery = [
     {
         
-        img: "/img/Cakes/mdTurquoiseCake.jpg",
+        img: "/img/Cakes/A.webp",
         title: "Cake 1",
     },
     {
        
-        img: "/img/Cakes/smBerryFlowersMuffinsCake.webp",
+        img: "/img/Cakes/B.webp",
         title: "Cake 2",
     },
     {
  
-        img: "/img/Cakes/SmCakeOnTable.webp",
+        img: "/img/Cakes/C.webp",
         title: "Cake 3",
     },
     {
  
-        img: "/img/Cakes/smFigCake.webp",
+        img: "/img/Cakes/D.webp",
         title: "Cake 4",
     },
     {
         
-        img: "/img/Cakes/smWeadingRedRodesCake.webp",
+        img: "/img/Cakes/E.webp",
         title: "Cake 5",
     },
     {
         
-        img: "/img/Cakes/smWeddingCreamStrawberry.webp",
+        img: "/img/Cakes/F.webp",
         title: "Cake 6",
     }
 ];
+
+
+
+
 
       {/* MARK: Small Cake Galery
          */}
@@ -41,7 +45,7 @@ export const CakeGalery = [
 export const SmallCakeGalery = [
     {
         
-        img: "/img/Cakes/mdTurquoiseCake.jpg",
+        img: "/img/smallCakes/BGMuffins.webp",
         title: "Cake 1",
     },
     {
@@ -70,6 +74,10 @@ export const SmallCakeGalery = [
         title: "Cake 6",
     }
 ];
+
+
+
+
 
 
       {/* MARK: Muffin Galery

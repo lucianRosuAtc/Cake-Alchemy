@@ -21,7 +21,7 @@ export default function ImageGallery() {
           width={500}
           height={500}
           alt="product"
-          className="h-80 sm:h-[450px] md:h-[600px] sm:w-[650px] md:w-[800px] object-cover object-center cursor-pointer"
+          className="h-80 sm:h-[450px] md:h-[600px] sm:w-[650px] md:w-[800px] object-cover object-top cursor-pointer"
           priority={true}
         />}
         <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Simply Delicious</span>

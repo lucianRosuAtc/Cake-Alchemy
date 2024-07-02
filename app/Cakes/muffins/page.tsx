@@ -14,7 +14,7 @@ export default function Muffins() {
   return (
     <main className='my-8 md:my-0'>
       <Image
-        src="/img/BGCake/BigCakeHero.png"
+        src="/img/smallCakes/BGMuffinNewCut.webp"
         alt="Cake image as background"
         width="1920"
         height="1080"
@@ -25,7 +25,7 @@ export default function Muffins() {
       </h1>
 
       <div className="mx-6">
-      <p className="my-8">
+        <p className="my-8">
           Dive into our delightful world of muffins, where every bite is a journey of flavors. Our muffins are baked fresh daily, using only the finest ingredients to ensure the perfect balance of moistness and taste. From the classic blueberry to the decadent chocolate chip, our variety caters to all taste buds.
         </p>
 
