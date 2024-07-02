@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { lusitana } from '@/app/layout';
 import { Metadata } from 'next';
 import Gallery from '@/components/Gallery';
+import { MuffinGalery } from '@/components/components-data/gallery-data';
+
 
 
 export const metadata: Metadata = {
@@ -29,7 +31,7 @@ export default function Muffins() {
           Dive into our delightful world of muffins, where every bite is a journey of flavors. Our muffins are baked fresh daily, using only the finest ingredients to ensure the perfect balance of moistness and taste. From the classic blueberry to the decadent chocolate chip, our variety caters to all taste buds.
         </p>
 
-        <Gallery />
+        <Gallery myData={MuffinGalery} />
 
         <p className="my-8">
           Perfect for breakfast, a mid-day snack, or a sweet treat, our muffins are designed to bring a smile to your face. Explore our selection to find your favorite, or surprise yourself with something new and exciting. Our muffins are not just treats; they&apos;re a warm hug for your soul, baked to perfection and waiting for you.
