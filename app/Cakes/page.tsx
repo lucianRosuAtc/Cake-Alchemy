@@ -13,7 +13,8 @@ export const metadata: Metadata = {
 export default function Page() {
 
   return (
-    <main className='bg-gray-50 dark:bg-secondary '>
+    // <main className='bg-gray-50 dark:bg-secondary '>
+    <main className=''>
       <Image 
       src="/img/BGCake/BigCakeHero.png"
       alt="Cake image as background"
