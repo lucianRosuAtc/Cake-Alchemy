@@ -1,12 +1,28 @@
 import { Linkedin, Mail, PhoneOutgoing } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
+import { Cake, Star, StarHalf } from 'lucide-react';
+
 
 // MARK: NAVIGATION LINKS
 export const navigationlinks = [
   { url: "/", name: "Home" },
-  { url: "/services", name: "My Services" },
+  { url: "/Cakes", name: "My Products" },
   { url: "/contact", name: "Contact" },
 ];
+
+// Map of links to display in the side navigation.
+export const SideLinks = [
+  { name: 'Cakes', href: '/Cakes', icon: Cake },
+  {
+    name: 'Small Cakes',
+    href: '/Cakes/smallCakes',
+    icon: Star,
+  },
+  { name: 'Muffins', href: '/Cakes/muffins', icon: StarHalf },
+];
+
+
+
 
 // MARK: SOCIAL DATA
 export const social = [
