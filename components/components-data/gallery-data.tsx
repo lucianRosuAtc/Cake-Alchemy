@@ -4,29 +4,29 @@
 
 export const CakeGalery = [
     {
-        
-        img: "/img/Cakes/A.webp",
+ 
+        img: "/img/Cakes/D.webp",
     },
     {
-       
-        img: "/img/Cakes/B.webp",
+        
+        img: "/img/Cakes/F.webp",
+    },
+    {
+        
+        img: "/img/Cakes/A.webp",
     },
     {
  
         img: "/img/Cakes/C.webp",
     },
     {
- 
-        img: "/img/Cakes/D.webp",
+       
+        img: "/img/Cakes/B.webp",
     },
     {
         
         img: "/img/Cakes/E.webp",
     },
-    {
-        
-        img: "/img/Cakes/F.webp",
-    }
 ];
 
 
