@@ -6,7 +6,8 @@ import {
   Trophy,
 } from "lucide-react";
 
-
+      {/* MARK: IntroDataFirst
+         */}
 export const IntroDataFirst = [
   {
     id: 1,
@@ -31,7 +32,8 @@ export const IntroDataFirst = [
 ];
 
 
-
+      {/* MARK: IntroDataSecond
+         */}
 export const IntroDataSecond = [
   {
     id: 1,
