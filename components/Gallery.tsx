@@ -28,7 +28,7 @@ export default function ImageGallery() {
       </div>
 
       <div className="grid">
-        <div className="order-last grid grid-cols-3 md:grid-cols-6 gap-4 mx-auto z-0">
+        <div className="order-last grid grid-cols-4 md:grid-cols-6 gap-4 mx-auto z-0">
           {CakeGalery.map((item) => (
             <div className="overflow-hidden rounded-lg bg-gray-100 justify-center" key={item.img}>
               <Image
@@ -36,7 +36,7 @@ export default function ImageGallery() {
                 alt="product"
                 width={200}
                 height={200}
-                className="h-20 sm:h-24 w-full object-cover object-center cursor-pointer transition-all duration-300 ease-in-out"
+                className="h-12 sm:h-24 w-full object-cover object-center cursor-pointer transition-all duration-300 ease-in-out"
                 onClick={() => handleSmallImageClick(item)}
                 priority={true}
               // change the image on click
