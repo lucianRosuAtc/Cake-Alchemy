@@ -14,7 +14,7 @@ export default function SmallCake() {
   return (
     <main className='my-8 md:my-0'>
       <Image
-        src="/img/smallCakes/SmallCakeBg.webp"
+        src="/img/smallCakes/SmallCakeNewBg.webp"
         alt="Small Cake image"
         width="1920"
         height="1080"
