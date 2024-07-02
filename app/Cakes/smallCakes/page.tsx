@@ -14,11 +14,11 @@ export default function SmallCake() {
   return (
     <main className='my-8 md:my-0'>
       <Image
-        src="/img/smallCakes/BGMuffinNewCut.webp"
+        src="/img/smallCakes/SmallCakeBg.webp"
         alt="Small Cake image"
         width="1920"
         height="1080"
-        className='h-80 md:h-[500px] w-[1920px] object-cover object-top'
+        className='h-80 md:h-[500px] w-[1920px] object-cover object-center'
       />
       <h1 className={`${lusitana.className} flex items-center justify-center my-8`}>
         Small Cakes

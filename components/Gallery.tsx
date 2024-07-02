@@ -30,7 +30,7 @@ export default function ImageGallery() {
       <div className="grid">
         <div className="order-last grid grid-cols-3 md:grid-cols-6 gap-4 mx-auto z-0">
           {CakeGalery.map((item) => (
-            <div className="overflow-hidden rounded-lg bg-gray-100 justify-center" key={item.title}>
+            <div className="overflow-hidden rounded-lg bg-gray-100 justify-center" key={item.img}>
               <Image
                 src={item.img}
                 alt="product"
