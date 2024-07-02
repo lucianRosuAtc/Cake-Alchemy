@@ -7,7 +7,7 @@ import { navigationlinks } from "./components-data/links-data";
 export default function NavBar() {
   const pathname = usePathname();
   return (
-    <div className="hidden xl:flex gap-x-8 items-center">
+    <div className="hidden xl:flex gap-x-8 items-center justify-center h-20">
       {navigationlinks.map((navlink) => (
         <Link
           className={`link hover:text-primary pb-1 ${

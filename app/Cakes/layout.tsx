@@ -4,12 +4,12 @@ export const experimental_ppr = true;
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+    <div className="flex h-full flex-col md:flex-row overflow-hidden">
       <div className="w-full flex-none md:w-64">
         <SideNav />
       </div>
-      {/* <div className="flex-grow p-6 md:overflow-y-auto md:p-12">{children}</div> */}
-      <div className="flex-grow md:overflow-y-auto ">{children}</div>
+
+      <div className="flex-grow  overflow-y-auto m-8 md:m-0 ">{children}</div>
     </div>
   );
 }

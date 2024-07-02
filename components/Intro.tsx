@@ -50,7 +50,7 @@ export default function Paralax() {
         </div>
 
         <div className="flex flex-col items-center justify-center mb-8 md:mb-16">
-          <Link href="/services">
+          <Link href="/Cakes">
             <Button className="gap-2 px-7 font-bold">Our Products <CakeSlice className="animate-bounce transition-all dark:text-orange-500" /></Button>
           </Link>
         </div>

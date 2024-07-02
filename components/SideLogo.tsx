@@ -1,16 +1,14 @@
 
 
 import { lusitana } from '@/app/layout';
-import { Cake} from 'lucide-react';
 
 
 export default function SideLogo() {
   return (
     <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white w-56 mt-40`}
+      className={`${lusitana.className} flex items-center leading-none text-white w-56`}
     >
-      <Cake className=" h-12 w-12" />
-      <p className="ml-2 text-2xl">Cake Alchemy</p>
+      <p className="flex justify-center text-2xl lg:text-3xl">Cake Alchemy</p>
     </div>
   );
 }
