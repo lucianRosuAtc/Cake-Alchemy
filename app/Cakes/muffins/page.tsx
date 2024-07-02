@@ -14,8 +14,8 @@ export default function Muffins() {
   return (
     <main className='my-8 md:my-0'>
       <Image
-        src="/img/Muffins/BGMuffinNewCut.webp"
-        alt="Cake image as background"
+        src="/img/Muffins/BgMuffinNewCutA.webp"
+        alt="Small Cake image"
         width="1920"
         height="1080"
         className='h-80 md:h-[500px] w-[1920px] object-cover object-top'
