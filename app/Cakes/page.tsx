@@ -1,17 +1,16 @@
-
 import Image from 'next/image';
 import { lusitana } from '../layout';
-import Gallery from '../../components/Gallery';
-
 import { Metadata } from 'next';
+import Gallery from '../../components/Gallery';
 
 
 export const metadata: Metadata = {
   title: 'Cakes',
 };
 
-export default function Page() {
 
+
+export default function Cake() {
   return (
     <main className='my-8 md:my-0'>
       <Image
@@ -25,7 +24,7 @@ export default function Page() {
         Big Cakes
       </h1>
 
-      <div className="">
+      <div className="mx-6 md:mx-0">
         <p className="my-8">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus incidunt ipsam quaerat commodi? Voluptas maxime fugiat repellendus, labore ab explicabo ratione excepturi quis, quisquam repudiandae vero doloribus, eaque eos ea sit? Consequuntur culpa explicabo, magnam earum eaque molestias aliquam numquam vel, sint accusantium consectetur omnis voluptate? Soluta fugiat possimus fuga et, illum obcaecati! Quasi sequi maiores qui, eligendi aperiam repudiandae.
         </p>
