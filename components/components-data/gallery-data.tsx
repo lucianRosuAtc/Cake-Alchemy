@@ -37,13 +37,36 @@ export const CakeGalery = [
          */}
 
 export const SmallCakeGalery = [
+    { 
+        img: "/img/Muffins/AmericanMuffin.webp",
+    },
     {
-        
-        img: "/img/smallCakes/BGMuffins.webp",
+       
+        img: "/img/Muffins/MdFluorescetMuffin.webp",
+    },
+    {
+ 
+        img: "/img/Muffins/mdRainbowMuffins.webp",
+    },
+    {
+ 
+        img: "/img/Muffins/smCreamStrawberryMuffin.webp",
     },
     {
        
         img: "/img/Cakes/smBerryFlowersMuffinsCake.webp",
+    },
+    {
+ 
+        img: "/img/Cakes/SmCakeOnTable.webp",
+    },
+    {
+ 
+        img: "/img/Cakes/smFigCake.webp",
+    },
+    {
+        
+        img: "/img/Cakes/smWeadingRedRodesCake.webp",
     },
     {
  
@@ -72,28 +95,31 @@ export const SmallCakeGalery = [
          */}
 
 export const MuffinGalery = [
-    {
-        
-        img: "/img/Cakes/mdTurquoiseCake.jpg",
+    { 
+        img: "/img/Muffins/AmericanMuffin.webp",
     },
     {
        
-        img: "/img/Cakes/smBerryFlowersMuffinsCake.webp",
+        img: "/img/Muffins/MdFluorescetMuffin.webp",
     },
     {
  
-        img: "/img/Cakes/SmCakeOnTable.webp",
+        img: "/img/Muffins/mdRainbowMuffins.webp",
     },
     {
  
-        img: "/img/Cakes/smFigCake.webp",
+        img: "/img/Muffins/smCreamStrawberryMuffin.webp",
     },
     {
         
-        img: "/img/Cakes/smWeadingRedRodesCake.webp",
+        img: "/img/Muffins/smRedCoolMuffin.webp",
     },
     {
         
         img: "/img/Cakes/smWeddingCreamStrawberry.webp",
-    }
+    },
+    {
+        
+        img: "/img/Muffins/smMuffinsWithBerrys.webp",
+    },
 ]

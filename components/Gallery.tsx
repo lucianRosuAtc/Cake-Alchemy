@@ -1,15 +1,15 @@
-"use client";
-import { useState } from "react";
-import { CakeGalery } from "./components-data/gallery-data";
+
+
+'use client'
 import Image from "next/image";
+import { useState } from "react";
 
+export default function ImageGallery({ myData }: { myData: { img: string }[] }) {
+  const [bigImage, setBigImage] = useState(myData && myData.length > 0 ? myData[0].img : null);// Set initial state to the first image
 
-export default function ImageGallery() {
-  const [bigImage, setBigImage] = useState(CakeGalery[0].img); // set initial state to the first image
-
-  const handleSmallImageClick = (img: any) => {
-    setBigImage(img.img) // set bigImage to img.img because img is the object from your CakeGalery array
-  }
+  const handleSmallImageClick = (img: { img: string }) => {
+    setBigImage(img.img); // Set bigImage to img.img because img is the object from my array
+  };
 
   return (
     <div className="flex flex-col">
@@ -29,7 +29,7 @@ export default function ImageGallery() {
 
       <div className="grid">
         <div className="order-last grid grid-cols-4 md:grid-cols-6 gap-4 mx-auto z-0">
-          {CakeGalery.map((item) => (
+        {myData && Array.isArray(myData) && myData.map((item) => (
             <div className="overflow-hidden rounded-lg bg-gray-100 justify-center" key={item.img}>
               <Image
                 src={item.img}
@@ -39,7 +39,6 @@ export default function ImageGallery() {
                 className="h-12 sm:h-24 w-full object-cover object-center cursor-pointer transition-all duration-300 ease-in-out"
                 onClick={() => handleSmallImageClick(item)}
                 priority={true}
-              // change the image on click
               />
             </div>
           ))}

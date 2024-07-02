@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { lusitana } from '@/app/layout';
 import { Metadata } from 'next';
 import Gallery from '@/components/Gallery';
+import { SmallCakeGalery } from '@/components/components-data/gallery-data';
 
 
 export const metadata: Metadata = {
@@ -29,7 +30,8 @@ export default function SmallCake() {
           Discover the charm of our small cakes, each a masterpiece of flavor and design. Crafted with care, our small cakes are perfect for those moments when you crave something sweet but exquisite. From the rich, velvety chocolate to the light and zesty lemon, our selection offers a variety of flavors to satisfy every palate.
         </p>
 
-        <Gallery />
+        <Gallery myData={SmallCakeGalery} />
+        
 
         <p className="my-8">
           Ideal for intimate gatherings, gifts, or a personal treat, our small cakes are designed to delight. Experience the joy of indulging in a cake that&apos;s just the right size, but big on taste. Let our small cakes be a part of your celebrations, creating memorable moments with every bite.
