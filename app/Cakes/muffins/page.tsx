@@ -24,15 +24,15 @@ export default function Muffins() {
         Muffins
       </h1>
 
-      <div className="mx-6 md:mx-0">
-        <p className="my-8">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus incidunt ipsam quaerat commodi? Voluptas maxime fugiat repellendus, labore ab explicabo ratione excepturi quis, quisquam repudiandae vero doloribus, eaque eos ea sit? Consequuntur culpa explicabo, magnam earum eaque molestias aliquam numquam vel, sint accusantium consectetur omnis voluptate? Soluta fugiat possimus fuga et, illum obcaecati! Quasi sequi maiores qui, eligendi aperiam repudiandae.
+      <div className="mx-6">
+      <p className="my-8">
+          Dive into our delightful world of muffins, where every bite is a journey of flavors. Our muffins are baked fresh daily, using only the finest ingredients to ensure the perfect balance of moistness and taste. From the classic blueberry to the decadent chocolate chip, our variety caters to all taste buds.
         </p>
 
         <Gallery />
 
         <p className="my-8">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus incidunt ipsam quaerat commodi? Voluptas maxime fugiat repellendus, labore ab explicabo ratione excepturi quis, quisquam repudiandae vero doloribus, eaque eos ea sit? Consequuntur culpa explicabo, magnam earum eaque molestias aliquam numquam vel, sint accusantium consectetur omnis voluptate? Soluta fugiat possimus fuga et, illum obcaecati! Quasi sequi maiores qui, eligendi aperiam repudiandae.
+          Perfect for breakfast, a mid-day snack, or a sweet treat, our muffins are designed to bring a smile to your face. Explore our selection to find your favorite, or surprise yourself with something new and exciting. Our muffins are not just treats; they&apos;re a warm hug for your soul, baked to perfection and waiting for you.
         </p>
       </div>
     </main>

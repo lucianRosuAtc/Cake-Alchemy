@@ -24,15 +24,15 @@ export default function SmallCake() {
         Small Cakes
       </h1>
 
-      <div className="mx-6 md:mx-0">
+      <div className="mx-6">
         <p className="my-8">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus incidunt ipsam quaerat commodi? Voluptas maxime fugiat repellendus, labore ab explicabo ratione excepturi quis, quisquam repudiandae vero doloribus, eaque eos ea sit? Consequuntur culpa explicabo, magnam earum eaque molestias aliquam numquam vel, sint accusantium consectetur omnis voluptate? Soluta fugiat possimus fuga et, illum obcaecati! Quasi sequi maiores qui, eligendi aperiam repudiandae.
+          Discover the charm of our small cakes, each a masterpiece of flavor and design. Crafted with care, our small cakes are perfect for those moments when you crave something sweet but exquisite. From the rich, velvety chocolate to the light and zesty lemon, our selection offers a variety of flavors to satisfy every palate.
         </p>
 
         <Gallery />
 
         <p className="my-8">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus incidunt ipsam quaerat commodi? Voluptas maxime fugiat repellendus, labore ab explicabo ratione excepturi quis, quisquam repudiandae vero doloribus, eaque eos ea sit? Consequuntur culpa explicabo, magnam earum eaque molestias aliquam numquam vel, sint accusantium consectetur omnis voluptate? Soluta fugiat possimus fuga et, illum obcaecati! Quasi sequi maiores qui, eligendi aperiam repudiandae.
+          Ideal for intimate gatherings, gifts, or a personal treat, our small cakes are designed to delight. Experience the joy of indulging in a cake that&apos;s just the right size, but big on taste. Let our small cakes be a part of your celebrations, creating memorable moments with every bite.
         </p>
       </div>
     </main>

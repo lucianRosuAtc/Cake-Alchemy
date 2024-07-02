@@ -24,15 +24,15 @@ export default function Cake() {
         Big Cakes
       </h1>
 
-      <div className="mx-6 md:mx-0">
-        <p className="my-8">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus incidunt ipsam quaerat commodi? Voluptas maxime fugiat repellendus, labore ab explicabo ratione excepturi quis, quisquam repudiandae vero doloribus, eaque eos ea sit? Consequuntur culpa explicabo, magnam earum eaque molestias aliquam numquam vel, sint accusantium consectetur omnis voluptate? Soluta fugiat possimus fuga et, illum obcaecati! Quasi sequi maiores qui, eligendi aperiam repudiandae.
+      <div className="mx-6">
+      <p className="my-8">
+          Welcome to our cake gallery, where every slice tells a story of craftsmanship and passion. Our cakes are more than just desserts; they are a celebration of flavor, artistry, and the sweet moments in life. From classic vanilla to exotic passion fruit, each cake is crafted with the finest ingredients to ensure a taste that lingers in your memory.
         </p>
 
         <Gallery />
 
         <p className="my-8">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus incidunt ipsam quaerat commodi? Voluptas maxime fugiat repellendus, labore ab explicabo ratione excepturi quis, quisquam repudiandae vero doloribus, eaque eos ea sit? Consequuntur culpa explicabo, magnam earum eaque molestias aliquam numquam vel, sint accusantium consectetur omnis voluptate? Soluta fugiat possimus fuga et, illum obcaecati! Quasi sequi maiores qui, eligendi aperiam repudiandae.
+          Whether you&apos;re celebrating a birthday, wedding, or just indulging in a sweet treat, our cakes are designed to make every occasion special. Explore our collection to find the perfect cake that speaks to your heart, or contact us for a custom creation that brings your dream cake to life. Let us be a part of your joyous moments, one delicious slice at a time.
         </p>
       </div>
     </main>
