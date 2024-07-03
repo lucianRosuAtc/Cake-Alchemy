@@ -23,8 +23,8 @@ export default function NavLinks() {
               },
             )}
           >
-            
-            <LinkIcon className="w-6 hover:text-orange-500" />
+
+            <LinkIcon className="w-10 h-10 hover:text-orange-500 p-1 border border-gray-300 shadow-inner rounded-md  bg-white" />
             <p className="hidden md:block">{link.name}</p>
           </Link>
         );

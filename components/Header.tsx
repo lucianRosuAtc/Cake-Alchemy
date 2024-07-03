@@ -12,7 +12,7 @@ export default function Header() {
 
 
   return (
-    <header className={`py-4 bg-white shadow-lg dark:bg-[#212124] dark:border-2 dark:border-b-primary/30 sticky top-0 z-30 transition-all ${pathname === "/"}`}>
+    <header className={`py-4 bg-white shadow-lg dark:bg-[#212124] sticky top-0 z-30 transition-all ${pathname === "/"}`}>
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <Logo />

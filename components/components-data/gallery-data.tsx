@@ -2,7 +2,7 @@
 {/* MARK: Cake Gallery
          */}
 
-export const CakeGalery = [
+export const CakeGallery = [
     {
 
         img: "/img/Cakes/D.webp",
@@ -33,10 +33,10 @@ export const CakeGalery = [
 
 
 
-{/* MARK: Small Cake Galery
+{/* MARK: Small Cake Gallery
          */}
 
-export const SmallCakeGalery = [
+export const SmallCakeGallery = [
     {
         img: "/img/smallCakes/SmBrownieAndFruitsCake.webp",
     },
@@ -83,10 +83,10 @@ export const SmallCakeGalery = [
 
 
 
-{/* MARK: Muffin Galery
+{/* MARK: Muffin Gallery
          */}
 
-export const MuffinGalery = [
+export const MuffinGallery = [
     {
         img: "/img/Muffins/MDMuffins.webp",
     },
@@ -120,4 +120,30 @@ export const MuffinGalery = [
     {
         img: "/img/Muffins/StrawberryMuffin.webp",
     },
+]
+
+
+{/* MARK: Donut Gallery
+         */}
+
+export const DonutsGallery = [
+    {
+        img: "/img/Donuts/RainbowAADon.webp",
+    },
+    {
+        img: "/img/Donuts/SugADonuts.webp",
+    },
+    {
+        img: "/img/Donuts/GreenADonut.webp",
+    },
+    {
+        img: "/img/Donuts/PurpleADonuts.webp",
+    },
+    {
+        img: "/img/Donuts/WhiteATowerDonut.webp",
+    },
+    {
+        img: "/img/Donuts/TurnACyanDon.webp",
+    },
+   
 ]

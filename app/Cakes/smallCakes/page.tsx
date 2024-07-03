@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { lusitana } from '@/app/layout';
 import { Metadata } from 'next';
 import Gallery from '@/components/Gallery';
-import { SmallCakeGalery } from '@/components/components-data/gallery-data';
+import { SmallCakeGallery } from '@/components/components-data/gallery-data';
 
 
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function SmallCake() {
         <p className="my-8 max-w-5xl mx-auto">
           Explore our gallery to find your perfect match. Whether you&apos;re looking for a classic favorite or something new and exciting, our small cakes are sure to impress. Each cake is a testament to our passion for baking and our commitment to using only the finest ingredients.
         </p>
-        <Gallery myData={SmallCakeGalery} />
+        <Gallery myData={SmallCakeGallery} />
 
 
         <p className="my-8 max-w-5xl mx-auto">
