@@ -52,10 +52,7 @@ export const SmallCakeGalery = [
  
         img: "/img/Muffins/smCreamStrawberryMuffin.webp",
     },
-    {
-       
-        img: "/img/Cakes/smBerryFlowersMuffinsCake.webp",
-    },
+   
     {
  
         img: "/img/Cakes/SmCakeOnTable.webp",
@@ -80,10 +77,7 @@ export const SmallCakeGalery = [
         
         img: "/img/Cakes/smWeadingRedRodesCake.webp",
     },
-    {
-        
-        img: "/img/Cakes/smWeddingCreamStrawberry.webp",
-    }
+
 ];
 
 
@@ -95,31 +89,37 @@ export const SmallCakeGalery = [
          */}
 
 export const MuffinGalery = [
+    {
+        img: "/img/Muffins/MDMuffins.webp",
+    },
+    {
+        img: "/img/Muffins/FerreroMuffin.webp",
+    },
     { 
         img: "/img/Muffins/AmericanMuffin.webp",
     },
-    {
-       
-        img: "/img/Muffins/MdFluorescetMuffin.webp",
+    { 
+        img: "/img/Muffins/RedMuffin.webp",
     },
     {
- 
-        img: "/img/Muffins/mdRainbowMuffins.webp",
+        img: "/img/Muffins/CherryCoolMuffin.webp",
     },
     {
- 
-        img: "/img/Muffins/smCreamStrawberryMuffin.webp",
+        img: "/img/Muffins/CustardMuffins.webp",
     },
     {
-        
-        img: "/img/Muffins/smRedCoolMuffin.webp",
+        img: "/img/Muffins/CherryMuffin.webp",
     },
-    {
-        
-        img: "/img/Cakes/smWeddingCreamStrawberry.webp",
+    { 
+        img: "/img/Muffins/MyMdFluorescetMuffin.webp",
     },
-    {
-        
-        img: "/img/Muffins/smMuffinsWithBerrys.webp",
+    { 
+        img: "/img/Muffins/StMuffin.webp",
+    },
+    { 
+        img: "/img/Muffins/RainbowMuffin.webp",
+    },
+    { 
+        img: "/img/Muffins/StrawberryMuffin.webp",
     },
 ]
