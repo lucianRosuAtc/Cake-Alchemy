@@ -100,7 +100,7 @@ export default function Paralax() {
 
       <section className="flex flex-col max-w-5xl mx-auto px-4 md:px-8 lg:text-center mb-8 md:mb-12">
         <h3 className="my-8">Custom Cake Designs</h3>
-        <p className="subtitle3 mb-8">
+        <p className="subtitle3 lg:mb-8">
           Can&apos;t find exactly what you&apos;re looking for? Let us create a custom cake that perfectly matches your vision. From the initial sketch to the final decoration, we work closely with you to bring your dream cake to life.
         </p>
       </section>
