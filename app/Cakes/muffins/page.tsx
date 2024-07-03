@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { lusitana } from '@/app/layout';
 import { Metadata } from 'next';
 import Gallery from '@/components/Gallery';
-import { MuffinGalery } from '@/components/components-data/gallery-data';
+import { MuffinGallery } from '@/components/components-data/gallery-data';
 
 
 
@@ -34,7 +34,7 @@ export default function Muffins() {
         <p className="my-8 max-w-5xl mx-auto">
           Perfect for breakfast, a mid-day snack, or a sweet treat, our muffins are designed to bring a smile to your face. Explore our selection to find your favorite, or surprise yourself with something new and exciting. Our muffins are not just treats; they&apos;re a warm hug for your soul, baked to perfection and waiting for you.
         </p>
-        <Gallery myData={MuffinGalery} />
+        <Gallery myData={MuffinGallery} />
 
         <p className="my-8 max-w-5xl mx-auto">
           Looking for something special? Our muffins also come in seasonal and limited-edition flavors that are sure to delight. Whether you&apos;re craving the cozy warmth of pumpkin spice in the fall or the zesty freshness of lemon in the spring, our seasonal selections offer something unique for every palate.

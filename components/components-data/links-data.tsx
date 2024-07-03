@@ -1,4 +1,4 @@
-import { Cake, CakeSlice, Dessert, Linkedin, Mail, PhoneOutgoing } from "lucide-react";
+import { Cake, CakeSlice, Dessert, Donut, Linkedin, Mail, PhoneOutgoing } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
 
@@ -21,6 +21,7 @@ export const SideLinks = [
     icon: CakeSlice,
   },
   { name: 'Muffins', href: '/Cakes/muffins', icon: Dessert },
+  { name: 'Donuts', href: '/Cakes/donuts', icon: Donut },
 ];
 
 

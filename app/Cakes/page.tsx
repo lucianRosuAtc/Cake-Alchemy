@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { lusitana } from '../layout';
 import { Metadata } from 'next';
 import Gallery from '../../components/Gallery';
-import { CakeGalery } from "../../components/components-data/gallery-data"
+import { CakeGallery } from "../../components/components-data/gallery-data"
 
 export const metadata: Metadata = {
   title: 'Cakes',
@@ -33,7 +33,7 @@ export default function Cake() {
           Dive into our diverse range of big cakes, each one a testament to our dedication to quality and creativity. Whether you&apos;re looking for something rich and decadent or light and refreshing, our gallery has a cake to suit every taste and occasion.
         </p>
 
-        <Gallery myData={CakeGalery} />
+        <Gallery myData={CakeGallery} />
 
         <p className="my-8 mx-auto max-w-5xl">
           After exploring our gallery, if you feel inspired to create a cake that&apos;s uniquely yours, we&apos;re here to make that happen. Our custom cake service allows you to bring your vision to life, combining your favorite flavors and designs into a cake that&apos;s as unique as your celebration.
