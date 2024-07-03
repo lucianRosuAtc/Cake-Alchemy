@@ -18,11 +18,9 @@ export default function Contact() {
 
           <div className="flex flex-col md:flex-row mb-8">
             <div className="grid">
-          
               <p className="max-w-[600px] md:mr-6">
-              At Cake Alchemy, we create exquisite cakes, muffins, and donuts that delight both the eyes and taste buds. Using the finest ingredients and innovative techniques, we ensure every bite is unforgettable. Whether for a special occasion or a treat for yourself, our creations bring joy and satisfaction to every customer.
-</p>
-
+                At Cake Alchemy, we create exquisite cakes, muffins, and donuts that delight both the eyes and taste buds. Using the finest ingredients and innovative techniques, we ensure every bite is unforgettable. Whether for a special occasion or a treat for yourself, our creations bring joy and satisfaction to every customer.
+              </p>
               <div className="flex flex-col my-8 md:my-0 gap-y-6 xl:gap-y-8 xl:text-lg">
                 <div className="flex items-center gap-x-8 ">
                   <MailIcon size={18} className="text-primary" />
@@ -46,7 +44,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* the Contact form under this comment */}
             <div className="mt-10 md:mt-0 md:w-1/2 ">
               <ContactForm />
             </div>
