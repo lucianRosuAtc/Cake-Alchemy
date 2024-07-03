@@ -23,7 +23,7 @@ export default function Contact() {
               </p>
               <div className="flex flex-col my-8 md:my-0 gap-y-6 xl:gap-y-8 xl:text-lg">
                 <div className="flex items-center gap-x-8 ">
-                  <MailIcon size={18} className="text-primary" />
+                  <MailIcon size={18} className="text-primary"/>
                   <a
                     href="mailto:vigilent.developer@gmail.com"
                     className="hover:text-primary"
