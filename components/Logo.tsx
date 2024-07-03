@@ -10,7 +10,7 @@ export default function Logo() {
         width={240}
         height={64}
         alt="Logo"
-        className="object-cover object-center rounded-full w-20 h-20 overflow-hidden cursor-pointer p-2 transition-all shadow-lg dark:bg-secondary/20"
+        className="object-cover object-center rounded-full w-20 h-20 overflow-hidden cursor-pointer p-2 transition-all shadow-lg dark:bg-secondary dark:shadow-black/60"
         priority={true}
       />
     </Link>
