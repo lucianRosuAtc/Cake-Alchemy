@@ -128,36 +128,22 @@ export const MuffinGallery = [
 
 export const DonutsGallery = [
     {
-        img: "/img/Muffins/MDMuffins.webp",
+        img: "/img/Donuts/RainbowAADon.webp",
     },
     {
-        img: "/img/Muffins/FerreroMuffin.webp",
+        img: "/img/Donuts/SugADonuts.webp",
     },
     {
-        img: "/img/Muffins/AmericanMuffin.webp",
+        img: "/img/Donuts/GreenADonut.webp",
     },
     {
-        img: "/img/Muffins/RedMuffin.webp",
+        img: "/img/Donuts/PurpleADonuts.webp",
     },
     {
-        img: "/img/Muffins/CherryCoolMuffin.webp",
+        img: "/img/Donuts/WhiteATowerDonut.webp",
     },
     {
-        img: "/img/Muffins/CustardMuffins.webp",
+        img: "/img/Donuts/TurnACyanDon.webp",
     },
-    {
-        img: "/img/Muffins/CherryMuffin.webp",
-    },
-    {
-        img: "/img/Muffins/MyMdFluorescetMuffin.webp",
-    },
-    {
-        img: "/img/Muffins/StMuffin.webp",
-    },
-    {
-        img: "/img/Muffins/RainbowMuffin.webp",
-    },
-    {
-        img: "/img/Muffins/StrawberryMuffin.webp",
-    },
+   
 ]

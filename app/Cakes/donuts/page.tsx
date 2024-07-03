@@ -16,7 +16,7 @@ export default function Donuts() {
     return (
         <main className='my-8 md:my-0'>
             <Image
-                src="/img/Muffins/BgMuffinNewCutA.webp"
+                src="/img/Donuts/newBgDonuts.webp"
                 alt="Donut image"
                 width="1920"
                 height="1080"
