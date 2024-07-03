@@ -1,30 +1,30 @@
 
-      {/* MARK: Cake Gallery
+{/* MARK: Cake Gallery
          */}
 
 export const CakeGalery = [
     {
- 
+
         img: "/img/Cakes/D.webp",
     },
     {
-        
+
         img: "/img/Cakes/F.webp",
     },
     {
-        
+
         img: "/img/Cakes/A.webp",
     },
     {
- 
+
         img: "/img/Cakes/C.webp",
     },
     {
-       
+
         img: "/img/Cakes/B.webp",
     },
     {
-        
+
         img: "/img/Cakes/E.webp",
     },
 ];
@@ -33,14 +33,14 @@ export const CakeGalery = [
 
 
 
-      {/* MARK: Small Cake Galery
+{/* MARK: Small Cake Galery
          */}
 
 export const SmallCakeGalery = [
     {
         img: "/img/smallCakes/SmBrownieAndFruitsCake.webp",
     },
-    { 
+    {
         img: "/img/smallCakes/MiniCake.webp",
     },
     {
@@ -76,9 +76,6 @@ export const SmallCakeGalery = [
     {
         img: "/img/smallCakes/SmWhiteCakeRoseMuffins.webp",
     },
-
-   
-
 ];
 
 
@@ -86,7 +83,7 @@ export const SmallCakeGalery = [
 
 
 
-      {/* MARK: Muffin Galery
+{/* MARK: Muffin Galery
          */}
 
 export const MuffinGalery = [
@@ -96,10 +93,10 @@ export const MuffinGalery = [
     {
         img: "/img/Muffins/FerreroMuffin.webp",
     },
-    { 
+    {
         img: "/img/Muffins/AmericanMuffin.webp",
     },
-    { 
+    {
         img: "/img/Muffins/RedMuffin.webp",
     },
     {
@@ -111,16 +108,16 @@ export const MuffinGalery = [
     {
         img: "/img/Muffins/CherryMuffin.webp",
     },
-    { 
+    {
         img: "/img/Muffins/MyMdFluorescetMuffin.webp",
     },
-    { 
+    {
         img: "/img/Muffins/StMuffin.webp",
     },
-    { 
+    {
         img: "/img/Muffins/RainbowMuffin.webp",
     },
-    { 
+    {
         img: "/img/Muffins/StrawberryMuffin.webp",
     },
 ]
