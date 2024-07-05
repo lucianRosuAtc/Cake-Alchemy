@@ -13,7 +13,7 @@ export default function ImageGallery({ myData }: { myData: { img: string }[] }) 
 
   return (
     <div className="flex flex-col">
-      <h2 className="mx-auto text-center my-12 md:my-16 border-b border-primary dark:border-orange-300 w-[270px] xl:w-[350px]">Gallery</h2>
+      <h2 className="mx-auto text-center my-12 md:my-16 border-b-2 border-primary dark:border-orange-300 w-[270px] xl:w-[350px]">Gallery</h2>
 
       <div className="relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-3 mb-4 mx-auto">
         {bigImage && <Image
@@ -21,14 +21,14 @@ export default function ImageGallery({ myData }: { myData: { img: string }[] }) 
           width={500}
           height={500}
           alt="product"
-          className="h-80 sm:h-[450px] md:h-[600px] sm:w-[650px] md:w-[800px] object-cover object-top"
+          className="h-80 sm:h-[450px] sm:w-[500px] object-cover object-top"
           priority={true}
         />}
-        <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Simply Delicious</span>
+        {/* <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">Simply Delicious</span> */}
       </div>
 
       <div className="grid">
-        <div className="order-last grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-7 gap-4 mx-auto max-w-5xl">
+        <div className="order-last grid grid-cols-4 sm:grid-cols-6 gap-4 mx-auto max-w-4xl">
         {myData && Array.isArray(myData) && myData.map((item) => (
             <div className="overflow-hidden rounded-lg bg-gray-100 justify-center" key={item.img}>
               <Image
