@@ -84,7 +84,10 @@ export default function ParalaxHeaderJs() {
             priority={true}
           />
         </span>
-        <h2 className="absolute bottom-6 sm:bottom-9 lg:bottom-[70px] left-28 lg:left-[270px] border-b-4 lg:border-b-8 border-white dark:border-primary/90 dark:text-white text-primary/90 text-2xl sm:text-4xl lg:text-5xl xl:text-7xl">Discover the Magic of Baking</h2>
+
+       
+        <h2 className="absolute bottom-6 sm:bottom-9 lg:bottom-[70px] left-28 lg:left-[270px] dark:text-white text-primary/90 text-2xl sm:text-4xl lg:text-5xl xl:text-7xl">SIMPLY DELICIOUS</h2>
+        
       </section>
       </div>
   );
