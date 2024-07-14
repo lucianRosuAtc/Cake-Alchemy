@@ -26,9 +26,6 @@ export default function Testimonials() {
                                         <p className="text-sm md:text-base font-medium">
                                             {testimonial.name}
                                         </p>
-                                        {/* <p className="subtitle2">
-                                            {testimonial.title}
-                                        </p> */}
                                     </div>
 
                                 </div>
