@@ -62,7 +62,7 @@ export default function MobileNav() {
                   href={item.url}
                   key={index}
                   target="_blank"
-                  className="text-secondary hover:text-primary dark:text-orange-100 dark:hover:text-primary text-3xl transition-all shadow-lg p-2 rounded-full bg-gray-50 dark:bg-black/20 dark:shadow-gray-600 dark:shadow-sm object-cover object-center"
+                  className="text-orange-400 hover:text-primary dark:text-orange-300 dark:hover:text-primary text-3xl transition-all shadow-lg p-2 rounded-full bg-gray-50 dark:bg-black/20 dark:shadow-gray-600 dark:shadow-sm object-cover object-center"
                 >
                   {item.myIcon}
                 </a>
